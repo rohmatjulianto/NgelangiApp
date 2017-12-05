@@ -1,0 +1,27 @@
+page-materi {
+	font-family: roboto;
+}
+
+    .toolbar{
+	text-align: center;
+	padding: 4px;
+	font-weight: bold;
+	min-height:57px;
+}
+.toolbar-title{
+	font-size: 20px;
+	font-family: roboto;
+}
+	.toolbar-background{
+		background:#0099cc;
+}
+	ion-icon{
+		float: right;
+		font-size: 3.4rem;
+	}
+	ion-md-book{
+		content: "\f29e";
+	}
+	.ion-ios-book::before{
+		content: "\f29e";
+	}

@@ -1,0 +1,17 @@
+page-quizselect {
+    .quiz-select-button{
+        text-align: center;
+        background: #0099cc;
+        border-width: 2px;
+        border-color:#f4f4f4;
+        border-style: solid;
+        border-radius:5px;
+        cursor: pointer;        
+        color:white;
+        padding:15px 10px 10px 10px;
+        margin-bottom: 10px;
+    }
+    .quiz-select-button p{
+        line-height: 0px;
+    }
+}

@@ -1,0 +1,16 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+	<div class="flb">
+		<div class="Aligner-item Aligner-item--top"></div>
+		<img src="assets/logo.png">
+		<div class="Aligner-item Aligner-item--bottom"></div>
+	</div>
+</div>
+<ion-header>
+</ion-header>
+<ion-content class="flb-bawah" padding text-center>
+	<img src="assets/logoapp.png">
+	<br>
+	<h1>Swimming E-Book</h1>
+			<button ion-button color="light" (click)="main('MateriPage')" outline>Get Started</button>
+			<button ion-button color="light" (click)="main('QuizselectPage')" outline> Take Quiz </button>
+</ion-content>

@@ -5,9 +5,11 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
+import { MateriPage } from '../pages/materi/materi';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AwalPage } from '../pages/awal/awal';
+import { MateriPageModule } from '../pages/materi/materi.module';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,15 @@ import { AwalPage } from '../pages/awal/awal';
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    MateriPageModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
     AwalPage,
+    MateriPage,
   ],
   providers: [
     StatusBar,

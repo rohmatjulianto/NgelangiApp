@@ -9,5 +9,8 @@ import { MateriPage } from './materi';
   imports: [
     IonicPageModule.forChild(MateriPage),
   ],
+  exports :[
+    MateriPage
+  ],
 })
 export class MateriPageModule {}
